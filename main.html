@@ -71,7 +71,52 @@
             </div>
         </div>
 
-        
+        <!-- cards -->
+
+        <div class="shadow-2xl bg-[#FBFBFB] my-1 rounded">
+
+            <!-- card  -->
+
+            <!-- grid-cols-[repeat(auto-fit,minmax(280px,1fr))] === eita diye bujhay j jotota card paro create koro ebong oi gulake auto fit koro shorbonimno size hote parbe 280px ekta card er 1 fr jaygay but jdi jayga thake tahole stretch koro stretch korar kaj ta auto fit e korbe maybe idk -->
+
+            <div id="cards" class="p-5 grid grid-cols-[repeat(auto-fit,minmax(280px,1fr))] gap-4">
+                <div class="card bg-base-100 bg-white">
+                <div class="bg-base-100 p-0 bg-white border-t-4 border-t-[#00A96E]">
+                    <div class="p-3">
+                        <figure class="flex justify-between">
+                            <img src="./assets/Open-Status.png" alt="Shoes" />
+                            <button class="btn btn-soft btn-secondary rounded-4xl">High</button>
+                        </figure>
+                        <div class="mt-3">
+                            <h2 class="card-title">Card Title</h2>
+                            <p>A card component has a figure, a body part, and inside body there are title and actions
+                                parts
+                            </p>
+                            <div class="card-actions justify-start mt-3">
+                                <button class="btn btn-soft btn-secondary rounded-4xl">High</button>
+                                <button class="btn btn-soft btn-secondary rounded-4xl">High</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="border-2 border-[#F8FAFC]"></div>
+
+                    <div class="bg-white p-3 min-h-20 flex justify-between">
+                        <div>
+                            <p>author</p>
+                            <p>assignee</p>
+                        </div>
+                        <div>
+                            <p>createdAt</p>
+                            <p>updatedAt</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="loading" class="justify-center items-center flex hidden">
+                <span class="loading loading-ring loading-xl"></span>
+            </div>
+        </div>
     </section>
 
     <!-- JS angta  -->
