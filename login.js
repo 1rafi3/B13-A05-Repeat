@@ -15,7 +15,7 @@ document.getElementById('login-btn')
 
         //check korbo userName ebong pass ki same ki na 
         if (userNameValue === 'admin' && password === 'admin123') {
-            window.location.assign('/main.html');
+            window.location.assign('main.html');
         } else {
             alert('username or password is invalid');
             return;
